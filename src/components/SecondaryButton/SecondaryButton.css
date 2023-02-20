@@ -1,0 +1,43 @@
+.secondaryButton {
+    padding: 1rem 2rem;
+    background-color: rgb(120 113 108);
+
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    
+    border: none;
+    border-radius: 5rem;
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.secondaryButton:focus {
+    background-color: rgb(87 83 78);
+    outline: 2px solid #333;
+}
+
+.secondaryButton .icon {
+    width: 1.5rem;
+}
+
+.secondaryButton.hover {
+    background-color: rgb(87 83 78);
+}
+
+.secondaryButton.focus {
+    outline: 2px solid #333;
+}
+
+.secondaryButton.disabled {
+    filter: brightness(0.5);
+    cursor: not-allowed;
+}
